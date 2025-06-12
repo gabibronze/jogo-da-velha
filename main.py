@@ -50,11 +50,11 @@ while True:
     exibirTabuleiro()
 
     print(f"Jogador {jogadorAtual}, é a sua vez.")
-    escolha = int(input("Digite a posicao que voce deseja: "))
+    escolha = int(input("Digite a posição que você deseja: "))
     if verificaPosicao(escolha):
         espaco[escolha] = jogadorAtual
     else:
-        print("Posicao já ocupada. Tente novamente.")
+        print("Posição já ocupada. Tente novamente.")
         continue
 
     if verificaVencedor(jogadorAtual):
@@ -64,7 +64,7 @@ while True:
 
     if cont == 9:
         exibirTabuleiro()
-        print("Essa não! De velha. Não tivemos vencedores.🤧🤧🤧")
+        print("Essa não! Deu velha. Não tivemos vencedores.🤧🤧🤧")
         break
 
     cont += 1
