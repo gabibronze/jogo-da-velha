@@ -64,7 +64,7 @@ while True:
 
     if cont == 9:
         exibirTabuleiro()
-        print("Essa não! De velha. Não tivemos vencedores.🤧🤧")
+        print("Essa não! De velha. Não tivemos vencedores.🤧🤧🤧")
         break
 
     cont += 1
